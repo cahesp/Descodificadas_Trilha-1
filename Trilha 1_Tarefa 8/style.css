@@ -1,0 +1,41 @@
+#darkred {
+    display:inline-block;
+    position: relative;
+    border: 1px solid rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    margin: -3px;
+    background-color: rgb(255, 0, 0);
+}
+.red {
+    display:inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    margin: -3px;
+    background-color: rgb(255, 0, 0);
+}
+.blue {
+    display:inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    margin: -3px;
+    background-color: rgb(99, 189, 221);
+}
+.yellow {
+    display:inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    margin: -3px;
+    background-color: rgb(255, 255, 0);
+}
+.green {
+    display:inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    margin: -3px;
+    background-color: rgb(63, 190, 63);
+}

@@ -27,22 +27,15 @@ body {
 
 /* Estilização do menu de navegação */
 .topnav {
-  overflow: hidden;
   background-color: rgb(255, 255, 255);
-  position: sticky;
-  top: 0px;
+  display: flex;
+    flex-flow: row wrap;
 }
 
-.topnav img {
-  float: left;
-  position: relative;
-  left: 80px;
-}
 
 /* Estilização dos links de navegação */
 .topnav a {
   float:right;
-  position: relative;
   top: 30px;
   right: 80px;
   color: rgb (117, 66, 117);
@@ -61,60 +54,83 @@ body {
 /* Estilização do cabeçalho */
 .header {
     text-align: center;
-    display:block;
-    background-color: white;
     margin-top: 5px;
     padding: 40px;
-
+    display: flex;
+    align-content: center;
   }
 
-.header img {
-  height: 700px;
-  width: 1000px;
-  border-radius: 100px;
-}
+  .imagens {
+    height: 700px;
+    width: 1000px;
+    border-radius: 100px;
+  }
 
 /* Estilização dos tópicos */
 .artigo {
     background-color: rgb(255, 255, 255);
     padding: 20px;
     margin-top: 20px;
+    display: flex;
+    flex-flow: column nowrap;
   }
 
-.artigo h1 {
-    font-family: Amatic;
-    font-size: 40px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    background-color: rgba(117, 66, 117);
-  }
+  .artigo h1 {
+      font-family: Amatic;
+      font-size: 40px;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      background-color: rgba(117, 66, 117);
+    }
 
-.artigo h4 {
-    font-size: 20px;
-    text-align: center;
-  }
+  .artigo h4 {
+      font-size: 20px;
+      text-align: center;
+    }
 
-.artigo p {
-    font-size: 20px;
-    text-align: center;
-  }
+  .artigo p {
+      font-size: 20px;
+      text-align: center;
+    }
 
 .gallery {
-    margin: 5px;
-    border: 1px solid rgb(204, 204, 204);
-    width: 250px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
   }
 
-.gallery img {
-    width: 250px;
-    height: auto;
-  }
+    .dino {
+      display: flex;
+      flex-flow: column nowrap;   
+    }
+      .dino img{
+        border-radius: 10px;
+      }
 
-.descr {
-    padding: 15px;
-    text-align: center;
-  }
+    .slcropped {
+      display: flex;
+      flex-flow: column nowrap;   
+    }
+      .slcropped img{
+        border-radius: 10px;
+      }
 
+    .penguino {
+      display: flex;
+      flex-flow: column nowrap;   
+    }
+      .penguino img{
+        border-radius: 10px;
+      }
+
+    .croppedbt {
+      display: flex;
+      flex-flow: column nowrap;   
+    }
+      .croppedbt img{
+        border-radius: 10px;
+      }
   
   /* Clear floats after the columns */
   .row::after {
@@ -127,7 +143,7 @@ body {
   .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: white;
     margin-top: 20px;
   }
   

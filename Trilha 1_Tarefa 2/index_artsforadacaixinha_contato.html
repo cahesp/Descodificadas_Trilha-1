@@ -6,49 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="shortcut icon" href="Imagens\symbol.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color: rgba(178, 107, 198, 0.522);">
-    <a href="index_artsforadacaixinha.html"><img src="Imagens\Logo_final.png" alt="Logo Arts Fora da Caixinha" width="150" class="media-object"></a>
-    <nav>
-        <a href="index_artsforadacaixinha.html">Página inicial</a>
-        <a href="index_artsforadacaixinha_historia.html">Nossa História</a>
-        <a href="index_artsforadacaixinha_contato.html">Contato</a>
-    </nav>
+<body>
+<section class="topnav">
+    <div class="logo">
+        <img src="Imagens/Logo_final.png" alt="Logo_artsforadacaixinha" height="110">
+    </div>
+    <div class="links">
+            <a href="index_artsforadacaixinha.html">Página inicial</a>
+            <a href="index_artsforadacaixinha_historia.html">Nossa História</a>
+            <a href="index_artsforadacaixinha_contato.html">Contato</a>
+    </div>
+</section>
+<section class="artigo">
     <h1>Fale conosco</h1>
-    <p>Para orçamentos e maiores informações nos chame no <a href="https://www.instagram.com/invites/contact/?i=1jd3ztjpkqxsn&utm_content=4dvv17t" target="_bl
-        ">direct do Instagram</a>
-       <br> ou deixe uma mensagem abaixo.
+    <p class="paragrafos">Para orçamentos e maiores informações nos chame no <a href="https://www.instagram.com/invites/contact/?i=1jd3ztjpkqxsn&utm_content=4dvv17t" target="_blank">direct do Instagram</a> ou deixe uma mensagem abaixo.
     </p>
+    <div class="form">
         <form>
         <label for="username">Nome*</label><br>
-        <input type="text" name="user_name" placeholder="Digite seu nome aqui" required/>
-        <br>
-        <br>
+        <input class="text" type="text" name="user_name" placeholder="Digite seu nome aqui" required/>
+        <br><br>
         <label for="usermail">E-mail*</label><br>
-        <input type="email" name="user_mail" placeholder="Digite seu e-mail aqui" required/>
-        <br>
-        <br>
-        <label for="usertel">Telefone</label><br>
-        <input type="tel" name="user_tel" placeholder="(xx) xxxxxxxxx"/>
-        <br>
-        <br>
+        <input class="text" type="email" name="user_mail" placeholder="Digite seu e-mail aqui" required/>
+        <br><br>
+        <label for="usertel">Telefone com DDD</label><br>
+        <input class="text" type="tel" name="user_tel" placeholder="(xx) xxxxxxxxx"/>
+        <br><br>
         <label for="opinion">Deseja receber nossas novidades?</label><br>
         <input type="radio" name="opinion1">Sim <br>
         <input type="radio" name="opinion2">Não 
-        <br>
-        <br>
+        <br><br>
         <label for="mensagem">Deixe sua mensagem:</label><br>
-        <textarea name="mensagem" placeholder="Deixe aqui sua mensagem*" required></textarea>
-        <br>
-        <br>
-        <input type="submit" name="botao_enviar" placeholder="Enviar">
-        <br>
-        <br>
+        <textarea class="text2" name="mensagem" placeholder="Deixe aqui sua mensagem*" required></textarea>
+        <br><br>
+        <input class="bottom" type="submit" name="botao_enviar" placeholder="Enviar">
     </form>
-    <hr>
-    <footer>
-        <p>Criado por Camila Oliveira &copy; 2023</p>
-    </footer>
+    </div>
+</section>
+<section class="footer">
+    <p>Criado por Camila Oliveira &copy; 2023</p>
+</section>
 </body>
 </html>

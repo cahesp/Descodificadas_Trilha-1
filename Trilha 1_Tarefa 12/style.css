@@ -1,0 +1,63 @@
+
+.container {
+    height: 600px;
+    width: 1250px;
+    background-color: rgba(56, 220, 220, 0.399);
+    margin: 100px;
+    padding: 100px;
+    display: grid;
+    grid: 300px 135px / 250px 250px 250px 250px 250px;
+    column-gap: 5px;
+    row-gap: 15px;
+    justify-items: center;
+    align-items: center;
+}
+
+.item1 {
+    grid-row: 1;
+    justify-self: center;
+}
+
+.item2 {
+    grid-row: 1;
+    justify-self: center
+}
+
+.item3 {
+    grid-row: 2;
+    justify-self: center
+}
+
+.item4 {
+    grid-row: 1;
+    justify-self: center
+}
+
+.item5 {
+    grid-row: 1;
+    justify-self: center
+}
+
+.item6 {
+    grid-row: 1;
+    justify-self: center
+}
+
+.item7 {
+    grid-row: 2;
+    justify-self: center
+}
+
+.item8 {
+    grid-row: 2;
+}
+
+.item9 {
+    grid-row: 2;
+    justify-self: center
+}
+
+.item10 {
+    grid-row: 2;
+    justify-self: center
+}

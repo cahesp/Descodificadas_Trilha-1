@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa 13 - Animações</title>
+
+<style>
+    .container {
+        background-color: rgb(222, 117, 197);
+        width: 700px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .container h1 {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        color: rgb(135, 42, 104);
+        text-align: center;
+    }
+
+    .container h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        color:rgb(135, 42, 104);
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .imagem {
+        text-align: center;
+        animation: Pulsar linear 3s infinite;          
+    }
+
+    @keyframes Pulsar {
+        0% {
+            transform: scale(1);
+        }
+        25% {
+            transform: scale(0.9)
+        }
+        50% {
+            transform: scale(1);
+        }
+        75% {
+            transform: scale(0.9)
+        }
+        100% {
+            transform: scale(1);
+        }
+    }    
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Descodificadas</h1>
+        <h2>Eu amo tecnologia!</h2>
+        <div class="imagem">
+            <img src="Imagem/pngwing.com.png" alt="Coração" height="500px">
+        </div>
+    </div>
+</body>
+</html>

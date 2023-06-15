@@ -7,6 +7,7 @@
     <title>Contato</title>
     <link rel="shortcut icon" href="Imagens\symbol.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <script src="codigo.js"></script>
 </head>
 <body>
 <section class="topnav">
@@ -26,7 +27,7 @@
     <div class="form">
         <form>
             <label for="username">Nome*</label>
-            <input class="text" type="text" name="user_name" placeholder="Digite seu nome aqui" required/>
+            <input class="text" type="text" name="user_name" placeholder="Nome completo" required/>
             <label for="usermail">E-mail*</label>
             <input class="text" type="email" name="user_mail" placeholder="Digite seu e-mail aqui" required/>
             <label for="usertel">Telefone com DDD</label>
@@ -39,7 +40,7 @@
             <br><br>
             <label for="mensagem">Deixe sua mensagem:</label>
             <textarea class="text2" name="mensagem" placeholder="Deixe aqui sua mensagem*" required></textarea>
-            <input class="bottom" type="submit" name="botao_enviar" placeholder="Enviar">
+            <button class="button2" onclick="mensagemEnviada()">Enviar</button>
         </form>
     </div>
 </section>

@@ -1,0 +1,133 @@
+/* Inserção de fonte externa */
+
+@font-face {
+    font-family: WBranding;
+    src: url('Fontes/WonderfulBranding.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Amatic ;
+    src: url('Fontes/AmaticSC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Estilização do corpo do site */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman';
+    padding: 10px;
+    background: rgba(178, 107, 198, 0.522);
+}
+
+/* Estilização do cabeçalho */
+.header {
+    padding: 30px;
+    text-align: center;
+    background-image: url(Imagens/Background2.jpg);
+}
+.header h1 {
+    font-family: WBranding;
+    font-size: 50px;
+    color: white;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+.header h2 {
+    font-family: Amatic;
+    font-size: 45px;
+    color: white;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+/* Estilização do menu de navegação */
+.topnav {
+    overflow: hidden;
+    background-color: rgba(122, 61, 139, 0.652);
+  }
+  
+/* Estilização dos links de navegação */
+.topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+/* Mudança de cor ao passar o mouse */
+.topnav a:hover {
+    background-color: rgb(117, 66, 117);
+    color: black;
+  }
+  
+/* Estilização dos tópicos */
+.artigo {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+.artigo h1 {
+    font-family: Amatic;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgba(117, 66, 117);
+  }
+
+.artigo h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+.artigo p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+.gallery {
+    margin: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    width: 250px;
+  }
+
+.gallery img {
+    width: 250px;
+    height: auto;
+  }
+
+.descr {
+    padding: 15px;
+    text-align: center;
+  }
+
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
